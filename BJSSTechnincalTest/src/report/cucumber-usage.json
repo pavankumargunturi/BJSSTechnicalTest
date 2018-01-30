@@ -1,0 +1,248 @@
+[
+  {
+    "source": "^View the basket and confirm that the items are of the size you selected, that their prices are correct, that Total Products is the sum of the two items and that ‘Total’ equals the Total Products \\+ Shipping$",
+    "steps": [
+      {
+        "name": "View the basket and confirm that the items are of the size you selected, that their prices are correct, that Total Products is the sum of the two items and that ‘Total’ equals the Total Products + Shipping",
+        "aggregatedDurations": {
+          "average": 5.377614946,
+          "median": 5.377614946
+        },
+        "durations": [
+          {
+            "duration": 5.377614946,
+            "location": "features/Test1.feature:15"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Quick view an item$",
+    "steps": [
+      {
+        "name": "Quick view an item",
+        "aggregatedDurations": {
+          "average": 3.374617089,
+          "median": 3.374617089
+        },
+        "durations": [
+          {
+            "duration": 3.374617089,
+            "location": "features/Test1.feature:9"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Add that item to your baske$",
+    "steps": [
+      {
+        "name": "Add that item to your baske",
+        "aggregatedDurations": {
+          "average": 0.24730225,
+          "median": 0.24730225
+        },
+        "durations": [
+          {
+            "duration": 0.24730225,
+            "location": "features/Test1.feature:11"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Continue shopping$",
+    "steps": [
+      {
+        "name": "Continue shopping",
+        "aggregatedDurations": {
+          "average": 3.129462519,
+          "median": 3.129462519
+        },
+        "durations": [
+          {
+            "duration": 3.129462519,
+            "location": "features/Test1.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Change the size of the item$",
+    "steps": [
+      {
+        "name": "Change the size of the item",
+        "aggregatedDurations": {
+          "average": 2.940522688,
+          "median": 2.940522688
+        },
+        "durations": [
+          {
+            "duration": 2.940522688,
+            "location": "features/Test1.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^View previous orders$",
+    "steps": [
+      {
+        "name": "View previous orders",
+        "aggregatedDurations": {
+          "average": 0.168793249,
+          "median": 0.168793249
+        },
+        "durations": [
+          {
+            "duration": 0.164910361,
+            "location": "features/Test2.feature:8"
+          },
+          {
+            "duration": 0.172676137,
+            "location": "features/Test3.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Proceed through checkout to payment \\(complete by wire\\)$",
+    "steps": [
+      {
+        "name": "Proceed through checkout to payment (complete by wire)",
+        "aggregatedDurations": {
+          "average": 8.648693922,
+          "median": 8.648693922
+        },
+        "durations": [
+          {
+            "duration": 8.648693922,
+            "location": "features/Test1.feature:16"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Confirm that the comment appears under ‘messages’$",
+    "steps": [
+      {
+        "name": "Confirm that the comment appears under ‘messages’",
+        "aggregatedDurations": {
+          "average": 3.624180775,
+          "median": 3.624180775
+        },
+        "durations": [
+          {
+            "duration": 3.624180775,
+            "location": "features/Test2.feature:10"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^login into automation practice$",
+    "steps": [
+      {
+        "name": "login into automation practice",
+        "aggregatedDurations": {
+          "average": 22.128316263,
+          "median": 21.1396176
+        },
+        "durations": [
+          {
+            "duration": 24.303718412,
+            "location": "features/Test1.feature:6"
+          },
+          {
+            "duration": 20.941612779,
+            "location": "features/Test2.feature:5"
+          },
+          {
+            "duration": 21.1396176,
+            "location": "features/Test3.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Quick view a different item \\(leave the size at the default$",
+    "steps": [
+      {
+        "name": "Quick view a different item (leave the size at the default",
+        "aggregatedDurations": {
+          "average": 3.134880901,
+          "median": 3.134880901
+        },
+        "durations": [
+          {
+            "duration": 3.134880901,
+            "location": "features/Test1.feature:13"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Add that item to your basket$",
+    "steps": [
+      {
+        "name": "Add that item to your basket",
+        "aggregatedDurations": {
+          "average": 2.850632736,
+          "median": 2.850632736
+        },
+        "durations": [
+          {
+            "duration": 2.850632736,
+            "location": "features/Test1.feature:14"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Logout from automation practice$",
+    "steps": [
+      {
+        "name": "Logout from automation practice",
+        "aggregatedDurations": {
+          "average": 2.454233073,
+          "median": 2.454233073
+        },
+        "durations": [
+          {
+            "duration": 2.454233073,
+            "location": "features/Test1.feature:17"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^Select an item from your previous order \\(there will be others – confirm this by date/time\\) and add a comment$",
+    "steps": [
+      {
+        "name": "Select an item from your previous order (there will be others – confirm this by date/time) and add a comment",
+        "aggregatedDurations": {
+          "average": 3.364034354,
+          "median": 3.364034354
+        },
+        "durations": [
+          {
+            "duration": 3.364034354,
+            "location": "features/Test2.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

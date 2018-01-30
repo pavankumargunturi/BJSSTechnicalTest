@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="109.236202">
+<testcase classname="HappyPath, Purchase 2 Items" name="HappyPath, Purchase 2 Items" time="56.461679">
+<system-out><![CDATA[Given login into automation practice........................................passed
+And Quick view an item......................................................passed
+And Change the size of the item.............................................passed
+And Add that item to your baske.............................................passed
+And Continue shopping.......................................................passed
+And Quick view a different item (leave the size at the default..............passed
+And Add that item to your basket............................................passed
+When View the basket and confirm that the items are of the size you selected, that their prices are correct, that Total Products is the sum of the two items and that ‘Total’ equals the Total Products + Shipping.passed
+Then Proceed through checkout to payment (complete by wire).................passed
+And Logout from automation practice.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="HappyPath, Purchase 2 Items" name="REVIEW PREVIOUS ORDERS AND ADD A MESSAGE" time="28.094738">
+<system-out><![CDATA[Given login into automation practice........................................passed
+And View previous orders....................................................passed
+When Select an item from your previous order (there will be others – confirm this by date/time) and add a comment.passed
+Then Confirm that the comment appears under ‘messages’......................passed
+]]></system-out>
+</testcase>
+<testcase classname="CAPTURE IMAGES" name="CAPTURE IMAGES" time="24.679785">
+<failure message="java.lang.AssertionError: Dress colour is not Red&#13;&#10;&#9;at org.junit.Assert.fail(Assert.java:88)&#13;&#10;&#9;at com.bjss.techincaltest.selenium.stepDefinitions.Test3_StepDefinitions.create_an_assertion_which_will_cause_a_fail_for_dress_colour_and_capture_screenshot(Test3_StepDefinitions.java:26)&#13;&#10;&#9;at ✽.Then create an assertion which will cause a fail for dress colour and capture screenshot(features/Test3.feature:9)&#13;&#10;"><![CDATA[Given login into automation practice........................................passed
+When View previous orders...................................................passed
+Then create an assertion which will cause a fail for dress colour and capture screenshot.failed
+
+StackTrace:
+java.lang.AssertionError: Dress colour is not Red
+	at org.junit.Assert.fail(Assert.java:88)
+	at com.bjss.techincaltest.selenium.stepDefinitions.Test3_StepDefinitions.create_an_assertion_which_will_cause_a_fail_for_dress_colour_and_capture_screenshot(Test3_StepDefinitions.java:26)
+	at ✽.Then create an assertion which will cause a fail for dress colour and capture screenshot(features/Test3.feature:9)
+]]></failure>
+</testcase>
+</testsuite>

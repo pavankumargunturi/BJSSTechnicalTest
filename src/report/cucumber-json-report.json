@@ -1,0 +1,294 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 5,
+        "name": "login into automation practice",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 24303718412,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "login into automation practice",
+            "match": {
+              "location": "Test1_StepDefinitions.login_into_automation_practice()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "HappyPath, Purchase 2 Items",
+        "description": "",
+        "id": "happypath,-purchase-2-items;happypath,-purchase-2-items",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3374617089,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Quick view an item",
+            "match": {
+              "location": "Test1_StepDefinitions.quick_view_an_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2940522688,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Change the size of the item",
+            "match": {
+              "location": "Test1_StepDefinitions.change_the_size_of_the_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 247302250,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Add that item to your baske",
+            "match": {
+              "location": "Test1_StepDefinitions.add_that_item_to_your_baske()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3129462519,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Continue shopping",
+            "match": {
+              "location": "Test1_StepDefinitions.continue_shopping()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3134880901,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Quick view a different item (leave the size at the default",
+            "match": {
+              "location": "Test1_StepDefinitions.quick_view_a_different_item_leave_the_size_at_the_default()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2850632736,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Add that item to your basket",
+            "match": {
+              "location": "Test1_StepDefinitions.add_that_item_to_your_basket()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5377614946,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "View the basket and confirm that the items are of the size you selected, that their prices are correct, that Total Products is the sum of the two items and that ‘Total’ equals the Total Products + Shipping",
+            "match": {
+              "location": "Test1_StepDefinitions.view_the_basket_and_confirm_that_the_items_are_of_the_size_you_selected_that_their_prices_are_correct_that_Total_Products_is_the_sum_of_the_two_items_and_that_Total_equals_the_Total_Products_Shipping()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8648693922,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Proceed through checkout to payment (complete by wire)",
+            "match": {
+              "location": "Test1_StepDefinitions.proceed_through_checkout_to_payment_complete_by_wire()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2454233073,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Logout from automation practice",
+            "match": {
+              "location": "Test1_StepDefinitions.logout_from_automation_practice()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "HappyPath, Purchase 2 Items",
+    "description": "",
+    "id": "happypath,-purchase-2-items",
+    "keyword": "Feature",
+    "uri": "features/Test1.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login into automation practice",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 20941612779,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login into automation practice",
+            "match": {
+              "location": "Test1_StepDefinitions.login_into_automation_practice()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "REVIEW PREVIOUS ORDERS AND ADD A MESSAGE",
+        "description": "",
+        "id": "happypath,-purchase-2-items;review-previous-orders-and-add-a-message",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 164910361,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "View previous orders",
+            "match": {
+              "location": "Test2_StepDefinitions.view_previous_orders()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3364034354,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Select an item from your previous order (there will be others – confirm this by date/time) and add a comment",
+            "match": {
+              "location": "Test2_StepDefinitions.select_an_item_from_your_previous_order_there_will_be_others_confirm_this_by_date_time_and_add_a_comment()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3624180775,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Confirm that the comment appears under ‘messages’",
+            "match": {
+              "location": "Test2_StepDefinitions.confirm_that_the_comment_appears_under_messages()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "HappyPath, Purchase 2 Items",
+    "description": "",
+    "id": "happypath,-purchase-2-items",
+    "keyword": "Feature",
+    "uri": "features/Test2.feature"
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "login into automation practice",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21139617600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "login into automation practice",
+            "match": {
+              "location": "Test1_StepDefinitions.login_into_automation_practice()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "CAPTURE IMAGES",
+        "description": "",
+        "id": "capture-images;capture-images",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 172676137,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "View previous orders",
+            "match": {
+              "location": "Test2_StepDefinitions.view_previous_orders()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3367491512,
+              "error_message": "java.lang.AssertionError: Dress colour is not Red\r\n\tat org.junit.Assert.fail(Assert.java:88)\r\n\tat com.bjss.techincaltest.selenium.stepDefinitions.Test3_StepDefinitions.create_an_assertion_which_will_cause_a_fail_for_dress_colour_and_capture_screenshot(Test3_StepDefinitions.java:26)\r\n\tat ✽.Then create an assertion which will cause a fail for dress colour and capture screenshot(features/Test3.feature:9)\r\n",
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "create an assertion which will cause a fail for dress colour and capture screenshot",
+            "match": {
+              "location": "Test3_StepDefinitions.create_an_assertion_which_will_cause_a_fail_for_dress_colour_and_capture_screenshot()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "CAPTURE IMAGES",
+    "description": "",
+    "id": "capture-images",
+    "keyword": "Feature",
+    "uri": "features/Test3.feature"
+  }
+]
